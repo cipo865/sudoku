@@ -6,7 +6,9 @@ REQUIREMENTS:
 
     Python 3
 
-INSTRUCTIONS:
+USAGE:
+
+    python3 sudoku.py [-h] -i INPUT [-d DELAY] [-H] [-a]
 
     You must specify an input file using the -i or --input flag.
 
