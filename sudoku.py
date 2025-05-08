@@ -7,7 +7,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--input', type=str, required=True, help='select an input file')
-parser.add_argument('-d', '--delay', type=float, default=0, help='specify the delay (in seconds) between one print and another (default 0)')
+parser.add_argument('-d', '--delay', type=float, default=0, help='specify a delay (in seconds) between printed steps')
 parser.add_argument('-H', '--heuristics', action='store_true', help='use the mrv and lcv heuristics')
 parser.add_argument('-a', '--ac3', action='store_true', help='use the ac3 constraints propagation')
 
