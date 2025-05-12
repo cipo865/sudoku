@@ -28,12 +28,6 @@ def next_cell(grid):
                 return r, c
     return False
 
-def is_valid(sudoku, row, col, num):
-    for r, c in sudoku.constraints[row][col]:
-        if num == sudoku.grid[r][c]:
-            return False
-    return True
-
 def back_track(sudoku):
     global nodes
     nodes += 1
