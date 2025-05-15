@@ -11,6 +11,10 @@ USAGE:
     python3 sudoku.py [-h] -i INPUT [-d DELAY] [-H] [-a]
 
     You must specify an input file using the -i or --input flag.
+    
+    Ensure the input file is located in the data directory. 
+    
+    You only need to specify the filename, not the full path.
 
     To enable the AC3 constraint propagation algorithm, use the -a or --ac3 flag.
 
